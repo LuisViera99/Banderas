@@ -33,7 +33,7 @@ export default createStore({
   getters:{
     topPaisesPoblacion(state){
       return state.paises.sort((a,b) => {
-        return a.population < b.population ? 1: -1
+        return a.population < b.population ? 1 : -1
       })
     }
   },
